@@ -23,18 +23,18 @@ public class CreditCardMainClass {
         CreditCard card3 = new CreditCard(213, 300);
 
         System.out.println("----------------------------------------------");
-        printCardSum(card1);
-        printCardSum(card2);
-        printCardSum(card3);
+        card1.printCardSum();
+        card2.printCardSum();
+        card3.printCardSum();
 
-        addSum(card1, 200);
-        addSum(card2, 300);
-        withdrawSum(card3, 500);
+        card1.addSum(200);
+        card2.addSum(300);
+        card3.withdrawSum(500);
 
         System.out.println("----------------------------------------------");
-        printCardSum(card1);
-        printCardSum(card2);
-        printCardSum(card3);
+        card1.printCardSum();
+        card2.printCardSum();
+        card3.printCardSum();
 
     }
 }

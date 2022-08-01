@@ -10,11 +10,4 @@ public class Banknotes {
         this.banknote50 = banknote50;
         this.banknote100 = banknote100;
     }
-
-    public static int banknotesSum (Banknotes banknotes) {
-        int sum = banknotes.banknote20 * 20
-                + banknotes.banknote50 * 50
-                + banknotes.banknote100 * 100;
-        return sum;
-    }
 }

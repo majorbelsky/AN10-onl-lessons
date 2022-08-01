@@ -21,12 +21,12 @@ public class Computer {
         this.hdd = hdd;
     }
 
-    public static void printComputerConfig (Computer computer) {
+    public void printComputerConfig () {
         System.out.println
-                ("Computer " + computer.model +
-                        ":\nRAM: " + computer.ram.name + " " + computer.ram.capacity +
-                        "GB\nHDD: " + computer.hdd.name + " " + computer.hdd.capacity + "GB" +
-                        (computer.hdd.isInternal ? " (internal)" : " (external)") +
-                        "\nPrice: " + computer.price);
+                ("Computer " + this.model +
+                        ":\nRAM: " + this.ram.name + " " + this.ram.capacity +
+                        "GB\nHDD: " + this.hdd.name + " " + this.hdd.capacity + "GB" +
+                        (this.hdd.isInternal ? " (internal)" : " (external)") +
+                        "\nPrice: " + this.price);
     }
 }

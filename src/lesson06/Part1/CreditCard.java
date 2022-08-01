@@ -9,22 +9,20 @@ public class CreditCard {
         this.currentSum = currentSum;
     }
 
-    public static CreditCard addSum(CreditCard card, int sum) {
-        card.currentSum += sum;
-        return card;
+    public void addSum(int sum) {
+        this.currentSum += sum;
     }
 
-    public static CreditCard withdrawSum(CreditCard card, int sum) {
-        if (sum > card.currentSum) {
+    public void withdrawSum(int sum) {
+        if (sum > this.currentSum) {
             System.out.println("----------------------------------------------");
-            System.out.println("Card" + card.accountNumber + ":Not enough funds!");
+            System.out.println("Card" + this.accountNumber + ":Not enough funds!");
         } else {
-            card.currentSum -= sum;
+            this.currentSum -= sum;
         }
-        return card;
     }
 
-    public static void printCardSum(CreditCard card) {
-        System.out.println("Card: " + card.accountNumber + "\nCurrent sum: " + card.currentSum);
+    public void printCardSum() {
+        System.out.println("Card: " + this.accountNumber + "\nCurrent sum: " + this.currentSum);
     }
 }
