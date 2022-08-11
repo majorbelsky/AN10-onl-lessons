@@ -4,7 +4,7 @@ package lesson08.Part1.Ex1;
  * Класс, описывающий сущность Фигура. Родительский для Круга, Праямоугольника и Треугольника
  */
 
-public class Figure {
+public abstract class Figure {
     /** Площадь фигуры */
     private float area;
     /** Периметр фигуры */
