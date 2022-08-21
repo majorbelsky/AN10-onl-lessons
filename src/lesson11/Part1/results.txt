@@ -1,0 +1,39 @@
+Add first:
+Linked list: 43300
+Array list: 102281800
+
+Add middle:
+Linked list: 85999
+Array list: 32993599
+
+Add Last:
+Linked list: 23500
+Array list: 25200
+
+Delete first:
+Linked list: 24600
+Array list: 32342499
+
+Delete middle:
+Linked list: 34099
+Array list: 37134500
+
+Delete last:
+Linked list: 18700
+Array list: 12900
+
+Get first:
+Linked list: 20600
+Array list: 30000
+
+Get middle:
+Linked list: 27000
+Array list: 13600
+
+Get last:
+Linked list: 10699
+Array list: 15800
+
+Find element:
+Linked list: 180030100
+Array list: 68904000
